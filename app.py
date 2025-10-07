@@ -12,7 +12,7 @@ import streamlit as st
 import os
 
 # Load the trained model
-loaded_model = pickle.load(open('C:/Users/Benjamin/Desktop/icyuzi/phone_sales_data.sav', 'rb'))
+loaded_model = pickle.load(open('phone_sales_data.sav', 'rb'))
 
 
 
@@ -56,3 +56,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
