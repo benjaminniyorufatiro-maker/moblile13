@@ -30,7 +30,7 @@ def phone_price_prediction(screen_size, ram, storage, battery_capacity, camera_q
 
 # Main Streamlit app
 def main():
-    st.title("📱 Mobile Phone Price Prediction App")
+    st.title("Mobile Phone Price Prediction App📱")
 
     # Input fields
     screen_size = st.text_input('Screen Size (inches) (e.g., 6.2)')
@@ -56,6 +56,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
